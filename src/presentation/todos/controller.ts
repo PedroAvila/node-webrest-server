@@ -38,7 +38,7 @@ export class TodosController {
         });
 
         res.json(todo);
-    }// comentario
+    }
 
     public updateTodo = async (req: Request, res: Response) => {
         const id = +req.params.id;
