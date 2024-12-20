@@ -57,7 +57,7 @@ export class TodosController {
         });
 
         res.json(updatedTodo);
-    }// sdsdsd
+    }
 
     public deleteTodo = async (req: Request, res: Response) => {
         const id = +req.params.id;
